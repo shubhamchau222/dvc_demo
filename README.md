@@ -1,6 +1,6 @@
 #  DVC basic demo
 
-[dvc site]("https://dvc.org/doc/user-guide/project-structure/pipelines-files")
+[dvc site](https://dvc.org/doc/user-guide/project-structure/pipelines-files)
 
 ## create the fresh annconda env 
 
