@@ -1,4 +1,3 @@
-
 # read the file
 
 with open('Artifact01.txt' , mode='r') as f:
@@ -6,3 +5,4 @@ with open('Artifact01.txt' , mode='r') as f:
     f.close()
 
 print(data)
+print('stage_02  - is completed....')

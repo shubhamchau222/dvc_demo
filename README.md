@@ -49,6 +49,10 @@
                 # Stage 'stage_01' didn't change, skipping
                 # Stage 'stage_02' didn't change, skipping
                 # Data and pipelines are up to date.
+
+        Note : if there is any change in code of specific file then & then only 
+                this file will run & accordingly hashcode is changes in file *'dvc.lock'*..
+                - the file which code haven't change this file is not run & skipped during the operations..
 (dvc) 
 
 ```
