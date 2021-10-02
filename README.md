@@ -39,6 +39,17 @@
                                         deps :
                                                 - stage_02.py
                                                 - Artifact01.txt
+
+                                stage_03 :
+                                        cmd : python stage_03.py 
+                                        deps :
+                                                - stage_03.py
+                                                - Artifact01.txt
+                                        outs :
+                                                - Artifact02.txt
+
+
+
 ```
 
 
