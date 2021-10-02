@@ -57,3 +57,21 @@
 
 ```
 - it'll create File **dvc.lock** which keep info of operation history.
+
+
+##  **to see the directed cyclic graph**
+```bash 
+        $ dvc dag 
+
+```
+```- the graph will look like this....
+                +----------+
+                | stage_01 |
+                +----------+
+                *
+                *
+                *
+                +----------+
+                | stage_02 |
+                +----------+
+```
