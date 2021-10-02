@@ -6,3 +6,9 @@ stages:
     outs :
      - Artifact01.txt
 
+  stage_02 :
+    cmd : python stage_02.py 
+    deps :
+      - stage_02.py
+      - Artifact01.txt
+
