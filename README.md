@@ -52,7 +52,7 @@
 
         Note : if there is any change in code of specific file then & then only 
                 this file will run & accordingly hashcode is changes in file *'dvc.lock'*..
-                - the file which code haven't change this file is not run & skipped during the operations..
+                - the file which code haven't change this file will not run & skipped during the operations..
 (dvc) 
 
 ```
