@@ -14,14 +14,14 @@
         $ git init
         $ dvc init  
 ```
-- after initializing the 'DVC' , there will be two files created namely ".dvc" , ".dvcignore"
+- after initializing the 'DVC' , there will be two files created namely **".dvc"** , **".dvcignore"**
 
 
 ## how you can run the Operations Sequentially ?
 
 - create the file dvc.yaml
 - write the neccessary stages into it , their deps & outs ...
-- run this file using command 'dvc repro' 
+- run this file using command **'dvc repro'** 
 
 ```
         $ touch dvc.yaml 
@@ -52,4 +52,4 @@
 (dvc) 
 
 ```
-- it'll create File *dvc.lock* which keep info of operation history.
+- it'll create File **dvc.lock** which keep info of operation history.
