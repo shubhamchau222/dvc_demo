@@ -52,3 +52,4 @@
 (dvc) 
 
 ```
+- it'll create File *dvc.lock* which keep info of operation history.
